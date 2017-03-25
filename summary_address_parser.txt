@@ -23,13 +23,3 @@ ASSUMPTIONS or RULES ::
 5. Keywords of building names can be present in landmarks but not in roadnames.
 
 6. Building name should not contain any digits. (not a hard and fast rule)
-
-
-put datai.xls path in pathone  -- country state district/city locality database
-
-put vijayawada.xls path in pathtwo -- sublocality database (we only have vijayawada data)
-
-
-
-
-
