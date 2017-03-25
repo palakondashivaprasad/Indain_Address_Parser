@@ -1,0 +1,35 @@
+Code given is only for space seperated. Can be easily extended to comma seperated.
+
+Pin-code -- 6 digit fully numeric
+
+Sub-locality  locality  City/District  State  Country  -- string search
+
+Door/Unit number  Floor number  Apartment/House/Building number  -- pattern recognition
+
+Apartment/House/Building name   Road/Street name/number  Landmark/Landmarks -- based on keywords.
+
+
+
+ASSUMPTIONS or RULES ::
+
+1. If there is a door number then it should be written before floor number.
+
+2. Fields ( if present ) of PART 2 should be in the same hierarchy as mentioned above.
+
+3. Landmarks should start and end with keywords. (near cyber towers)
+
+4. Building name if present should end with a keyword. (if there is no road name then this rule can be taken out of consideration)
+
+5. Keywords of building names can be present in landmarks but not in roadnames.
+
+6. Building name should not contain any digits. (not a hard and fast rule)
+
+
+put datai.xls path in pathone  -- country state district/city locality database
+
+put vijayawada.xls path in pathtwo -- sublocality database (we only have vijayawada data)
+
+
+
+
+
